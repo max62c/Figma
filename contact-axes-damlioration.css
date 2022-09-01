@@ -1,0 +1,577 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div3 {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: #78be20;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 1366px;
+  height: 82px;
+}
+.acceuil-b1 {
+  position: relative;
+  display: inline-block;
+  width: 79px;
+  height: 44.11px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contact-b1,
+.nos-formations-b1,
+.nos-tmoignages-b1 {
+  position: relative;
+  display: inline-block;
+  width: 92px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.nos-formations-b1,
+.nos-tmoignages-b1 {
+  width: 169px;
+  height: 89.86px;
+  cursor: pointer;
+}
+.nos-tmoignages-b1 {
+  width: 188px;
+  height: 44.11px;
+}
+.frame-div1 {
+  position: absolute;
+  top: 28.14px;
+  left: 201px;
+  height: 89.86px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.logo-afpa-2018-300x300-1-icon1 {
+  position: relative;
+  width: 131px;
+  height: 82px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-div2 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 150px;
+  height: 86px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.barre-de-navigation1 {
+  position: absolute;
+  top: -5px;
+  left: -10px;
+  width: 1381px;
+  height: 118px;
+  color: #fff;
+  font-family: Arial;
+}
+.titre-icon {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 1387px;
+  height: 86px;
+}
+.listbox-title-div,
+.listboxbg-div {
+  position: absolute;
+  height: 6.92%;
+  width: 90.91%;
+  top: 0;
+  right: 4.55%;
+  bottom: 93.08%;
+  left: 4.55%;
+}
+.listboxbg-div {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+.chevron-icon {
+  position: absolute;
+  height: 24%;
+  width: 6.93%;
+  top: 45.5%;
+  right: 6.18%;
+  bottom: 30.5%;
+  left: 86.89%;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.8;
+}
+.choisisez-votre-rgion {
+  position: absolute;
+  height: 100%;
+  width: 95.65%;
+  top: 0;
+  right: 4.35%;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+.placeholder-text-div {
+  position: absolute;
+  height: 33.33%;
+  width: 65.71%;
+  top: 33.33%;
+  right: 28.57%;
+  bottom: 33.33%;
+  left: 5.71%;
+}
+.listbox-main-div {
+  position: absolute;
+  height: 20.76%;
+  width: 90.91%;
+  top: 9.69%;
+  right: 4.55%;
+  bottom: 69.55%;
+  left: 4.55%;
+}
+.div {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  display: inline-block;
+}
+.item-1-div {
+  position: relative;
+  background-color: #fff;
+  width: 344px;
+  height: 44px;
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: 15px;
+  color: #000;
+  font-family: Inter;
+}
+.div1 {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  display: inline-block;
+}
+.item-2-div {
+  font-family: Roboto;
+}
+.item-2-div,
+.item-3-div {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  height: 44px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.dropdown-list-div {
+  position: absolute;
+  width: 90.91%;
+  top: 68px;
+  right: 4.55%;
+  left: 4.55%;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  height: 1px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  opacity: 0;
+}
+.clip-list-div {
+  position: absolute;
+  height: 90.31%;
+  width: 100%;
+  top: 9.69%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  color: #333;
+}
+.listbox-component-div {
+  position: absolute;
+  top: 391px;
+  left: 270px;
+  width: 308px;
+  height: 289px;
+  font-size: 16px;
+  color: #666;
+  font-family: Montserrat;
+}
+.adresse-mail,
+.nom-div,
+.numro-de-tlphone {
+  position: absolute;
+  top: 204px;
+  left: 38px;
+  display: inline-block;
+  width: 295px;
+  height: 40px;
+}
+.adresse-mail,
+.numro-de-tlphone {
+  top: 271px;
+}
+.numro-de-tlphone {
+  top: 344px;
+}
+.box-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #d5d8de;
+  box-sizing: border-box;
+}
+.key-field-div,
+.key-field-div1 {
+  position: absolute;
+  height: 45%;
+  top: 21.67%;
+  bottom: 33.33%;
+  left: 16px;
+  display: inline-block;
+  width: 47px;
+  opacity: 0.8;
+}
+.key-field-div1 {
+  width: 107px;
+}
+.input-fields-mail {
+  position: relative;
+  border-radius: 8px;
+  width: 283px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.key-field-div2 {
+  position: absolute;
+  height: 45%;
+  top: 21.67%;
+  bottom: 33.33%;
+  left: 16px;
+  display: inline-block;
+  width: 183px;
+  opacity: 0.8;
+}
+.frame-div3 {
+  position: absolute;
+  top: 191px;
+  left: 292px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 16px;
+  color: #323941;
+  font-family: Montserrat;
+}
+.vous-tes-rsident-de {
+  position: absolute;
+  top: 428px;
+  left: 38px;
+  display: inline-block;
+  width: 426px;
+  height: 36px;
+}
+.checkbox-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.en-centre-de-formation-prsen {
+  position: absolute;
+  height: 34%;
+  width: 75.44%;
+  top: 11.19%;
+  right: 5.91%;
+  bottom: 54.81%;
+  left: 18.66%;
+  display: inline-block;
+}
+.rectangle-div5 {
+  position: absolute;
+  height: 59.26%;
+  width: 57.14%;
+  top: 31.22%;
+  right: 19.07%;
+  bottom: 9.52%;
+  left: 23.79%;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.rectangle-div4 {
+  position: absolute;
+  height: 25.96%;
+  width: 16.77%;
+  top: 0.96%;
+  right: 82.63%;
+  bottom: 73.08%;
+  left: 0.6%;
+}
+.property-1variant1-div {
+  position: relative;
+  width: 167px;
+  height: 104px;
+  flex-shrink: 0;
+}
+.distance-div {
+  position: absolute;
+  top: calc(50% - 32.5px);
+  left: 29px;
+  display: inline-block;
+  width: 86px;
+  height: 50px;
+}
+.rectangle-div6 {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 28px;
+  height: 27px;
+}
+.property-1variant2-div {
+  position: relative;
+  width: 131px;
+  height: 79px;
+  flex-shrink: 0;
+}
+.en-contrat-dalternance-avec-l {
+  position: absolute;
+  height: 75%;
+  width: 74.34%;
+  top: 13%;
+  right: 0;
+  bottom: 12%;
+  left: 25.66%;
+  display: inline-block;
+}
+.rectangle-div8 {
+  position: absolute;
+  height: 29.67%;
+  width: 13.08%;
+  top: 2.2%;
+  right: 78.04%;
+  bottom: 68.13%;
+  left: 8.88%;
+}
+.property-1variant3-div {
+  position: relative;
+  width: 214px;
+  height: 91px;
+  flex-shrink: 0;
+}
+.sans-prfrence-div {
+  position: absolute;
+  height: 37.68%;
+  width: 46.8%;
+  top: 13.04%;
+  right: 27.58%;
+  bottom: 49.28%;
+  left: 25.63%;
+  display: inline-block;
+}
+.rectangle-div10 {
+  position: absolute;
+  height: 29.67%;
+  width: 15.47%;
+  top: 3.3%;
+  right: 77.9%;
+  bottom: 67.03%;
+  left: 6.63%;
+}
+.property-1variant4-div {
+  position: relative;
+  width: 181px;
+  height: 91px;
+  flex-shrink: 0;
+}
+.checkboxmodalites-div {
+  position: absolute;
+  top: 209px;
+  left: 600px;
+  border-radius: 5px;
+  width: 769px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}
+.vous-tes-div {
+  position: absolute;
+  top: 338px;
+  left: 624px;
+  display: inline-block;
+  width: 121px;
+  height: 26px;
+}
+.rectangle-div12 {
+  position: absolute;
+  height: 61.36%;
+  width: 13.33%;
+  top: -4.55%;
+  right: 81.9%;
+  bottom: 43.18%;
+  left: 4.76%;
+}
+.property-1variant2-div1 {
+  position: relative;
+  width: 210px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.salari-en-transition-professi {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 45px;
+  display: inline-block;
+  width: 277px;
+  height: 33px;
+}
+.rectangle-div14 {
+  position: absolute;
+  top: -1px;
+  left: 14px;
+  width: 28px;
+  height: 27px;
+}
+.property-1variant1-div1 {
+  position: relative;
+  width: 322px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.rectangle-div16 {
+  position: absolute;
+  height: 65.85%;
+  width: 20.9%;
+  top: -4.88%;
+  right: 79.1%;
+  bottom: 39.02%;
+  left: 0;
+}
+.property-1variant3-div1 {
+  position: relative;
+  width: 134px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.checkboxvousetes-div {
+  position: absolute;
+  top: 367px;
+  left: 596px;
+  border-radius: 5px;
+  width: 769px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}
+.modalits-dapprentissage-priv {
+  position: absolute;
+  top: 190px;
+  left: 624px;
+  display: inline-block;
+  width: 437px;
+  height: 41px;
+}
+.rectangle-div18 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.envoyer-b {
+  position: absolute;
+  height: 57.58%;
+  width: 58.72%;
+  top: 21.21%;
+  right: 21.1%;
+  bottom: 21.21%;
+  left: 20.18%;
+  display: inline-block;
+}
+.bouton-div {
+  position: absolute;
+  top: 662px;
+  left: 614px;
+  width: 109px;
+  height: 33px;
+  text-align: center;
+}
+.bouton-div,
+.span {
+  font-size: 16px;
+}
+.nous-contacter-b {
+  position: absolute;
+  top: 122px;
+  left: 530px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 416px;
+  height: 26px;
+}
+.contact-axes-damlioration {
+  position: relative;
+  background: linear-gradient(135deg, #084976, #f799db);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
