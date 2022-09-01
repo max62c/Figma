@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="acceuil-div">
+      <div class="barre-de-navigation">
+        <div class="rectangle-div"></div>
+        <b class="acceuil-b">Acceuil</b
+        ><b class="contact-b" id="contactText">Contact</b
+        ><b
+          class="nos-formations-b"
+          data-scroll-to="nosFormationsText"
+          id="nosFormationsText"
+          >Nos Formations</b
+        ><b class="nos-tmoignages-b" id="nosTmoignagesText">Nos Témoignages</b
+        ><b class="nos-rfrences-b" id="nosRfrencesText">Nos références</b>
+        <div class="frame-div">
+          <img
+            class="logo-afpa-2018-300x300-1-icon"
+            alt=""
+            src="public/logoafpa2018300x300-1@2x.png"
+          />
+        </div>
+      </div>
+      <div class="titre-div">
+        <div class="rectangle-div1"></div>
+        <div class="devenez-dveloppeur-web">Devenez Développeur Web</div>
+      </div>
+      <img class="r-1-icon" alt="" src="public/r-1@2x.png" /><b
+        class="une-formation-gratuite-et-rmu"
+        >Une formation gratuite et rémunérée pour les demandeurs d'emploi</b
+      >
+      <div class="buttom-div">
+        <div class="rectangle-div2" id="rectangleRectangle2"></div>
+        <b class="je-dcouvre-la-formation">Je découvre la formation</b>
+      </div>
+      <div class="mentions-lgales-div">
+        <div class="mentions-legales-div" id="mentionsLegalesText">
+          Mentions Legales
+        </div>
+        <textarea class="rectangle-textarea"></textarea>
+      </div>
+      <textarea class="rectangle-textarea1"></textarea>
+    </div>
+
+    <script>
+      var contactText = document.getElementById("contactText");
+      if (contactText) {
+        contactText.addEventListener("click", function (e) {
+          window.location.href = "./contact-axes-damlioration.html";
+        });
+      }
+      
+      var nosFormationsText = document.getElementById("nosFormationsText");
+      if (nosFormationsText) {
+        nosFormationsText.addEventListener("click", function (e) {
+          window.location.href = "./formation-dwwm.html";
+        });
+      }
+      
+      var nosTmoignagesText = document.getElementById("nosTmoignagesText");
+      if (nosTmoignagesText) {
+        nosTmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignage.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./nos-rfrences.html";
+        });
+      }
+      
+      var rectangleRectangle2 = document.getElementById("rectangleRectangle2");
+      if (rectangleRectangle2) {
+        rectangleRectangle2.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='nosFormationsText']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var mentionsLegalesText = document.getElementById("mentionsLegalesText");
+      if (mentionsLegalesText) {
+        mentionsLegalesText.addEventListener("click", function (e) {
+          window.location.href = "./mentions-legales.html";
+        });
+      }
+      </script>
+  </body>
+</html>

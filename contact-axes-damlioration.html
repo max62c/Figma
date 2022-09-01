@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./contact-axes-damlioration.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-axes-damlioration">
+      <div class="barre-de-navigation1">
+        <div class="rectangle-div3"></div>
+        <div class="frame-div1">
+          <b class="acceuil-b1" id="acceuilText">Acceuil</b
+          ><b class="contact-b1">Contact</b
+          ><b class="nos-formations-b1" id="nosFormationsText">Nos Formations</b
+          ><b class="nos-tmoignages-b1" id="nosTmoignagesText"
+            >Nos Témoignages</b
+          ><b class="nos-tmoignages-b1" id="nosRfrencesText">Nos références</b>
+        </div>
+        <div class="frame-div2">
+          <img
+            class="logo-afpa-2018-300x300-1-icon1"
+            alt=""
+            src="public/logoafpa2018300x300-11@2x.png"
+          />
+        </div>
+      </div>
+      <img class="titre-icon" alt="" src="public/titre.svg" />
+      <div class="listbox-component-div">
+        <div class="listbox-title-div"></div>
+        <div class="listbox-main-div">
+          <div class="listboxbg-div"></div>
+          <img class="chevron-icon" alt="" src="public/chevron.svg" />
+          <div class="placeholder-text-div">
+            <div class="choisisez-votre-rgion">Choisisez votre région</div>
+          </div>
+        </div>
+        <div class="clip-list-div">
+          <div class="dropdown-list-div">
+            <div class="item-1-div">
+              <div class="div">Bourgogne - France-Comté</div>
+            </div>
+            <div class="item-2-div"><div class="div1">Bretagne</div></div>
+            <div class="item-3-div"><div class="div1">PACA</div></div>
+            <div class="item-3-div"><div class="div1">Centre</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="nom-div">Nom (*)</div>
+      <div class="adresse-mail">Adresse mail (*)</div>
+      <div class="numro-de-tlphone">Numéro de téléphone</div>
+      <div class="frame-div3">
+        <div class="input-fields-mail">
+          <div class="box-div"></div>
+          <div class="key-field-div">Nom</div>
+        </div>
+        <div class="input-fields-mail">
+          <div class="box-div"></div>
+          <div class="key-field-div1">Adresse mail</div>
+        </div>
+        <div class="input-fields-mail">
+          <div class="box-div"></div>
+          <div class="key-field-div2">Numero de telephone</div>
+        </div>
+      </div>
+      <div class="vous-tes-rsident-de">Vous êtes résident de</div>
+      <div class="checkboxmodalites-div">
+        <div class="property-1variant1-div">
+          <div class="checkbox-div"></div>
+          <div class="en-centre-de-formation-prsen">
+            En centre de formation (présentiel)
+          </div>
+          <div class="rectangle-div4"><div class="rectangle-div5"></div></div>
+        </div>
+        <div class="property-1variant2-div">
+          <div class="checkbox-div"></div>
+          <div class="distance-div">100 % à distance</div>
+          <div class="rectangle-div6"><div class="rectangle-div5"></div></div>
+        </div>
+        <div class="property-1variant3-div">
+          <div class="checkbox-div"></div>
+          <div class="en-contrat-dalternance-avec-l">
+            En contrat d'alternance avec l'entreprise
+          </div>
+          <div class="rectangle-div8"><div class="rectangle-div5"></div></div>
+        </div>
+        <div class="property-1variant4-div">
+          <div class="sans-prfrence-div">Sans préférence</div>
+          <div class="rectangle-div10"><div class="rectangle-div5"></div></div>
+        </div>
+      </div>
+      <div class="vous-tes-div">Vous êtes</div>
+      <div class="checkboxvousetes-div">
+        <div class="property-1variant2-div1">
+          <div class="en-centre-de-formation-prsen">Demandeur d'emploi</div>
+          <div class="rectangle-div12"><div class="rectangle-div5"></div></div>
+        </div>
+        <div class="property-1variant1-div1">
+          <div class="salari-en-transition-professi">
+            Salarié en transition professionnelle
+          </div>
+          <div class="rectangle-div14"><div class="rectangle-div5"></div></div>
+        </div>
+        <div class="property-1variant3-div1">
+          <div class="en-contrat-dalternance-avec-l">Autre</div>
+          <div class="rectangle-div16"><div class="rectangle-div5"></div></div>
+        </div>
+      </div>
+      <div class="modalits-dapprentissage-priv">
+        Modalités d'apprentissage privilégiées
+      </div>
+      <div class="bouton-div">
+        <div class="rectangle-div18"></div>
+        <b class="envoyer-b">Envoyer</b>
+      </div>
+      <b class="nous-contacter-b"
+        ><span>Nous</span><span class="span"> </span><span>Contacter</span></b
+      >
+    </div>
+
+    <script>
+      var acceuilText = document.getElementById("acceuilText");
+      if (acceuilText) {
+        acceuilText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var nosFormationsText = document.getElementById("nosFormationsText");
+      if (nosFormationsText) {
+        nosFormationsText.addEventListener("click", function (e) {
+          window.location.href = "./formation-dwwm.html";
+        });
+      }
+      
+      var nosTmoignagesText = document.getElementById("nosTmoignagesText");
+      if (nosTmoignagesText) {
+        nosTmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignage.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./nos-rfrences.html";
+        });
+      }
+      </script>
+  </body>
+</html>
