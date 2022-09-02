@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 9.01px;
+  background-color: #78be20;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1366.99px;
+  height: 63px;
+}
+.acceuil-b {
+  position: absolute;
+  top: 17px;
+  left: 203.15px;
+  display: inline-block;
+  width: 79.06px;
+  height: 27px;
+}
+.contact-b,
+.nos-formations-b,
+.nos-rfrences-b,
+.nos-tmoignages-b {
+  position: absolute;
+  top: 17px;
+  left: 368.27px;
+  display: inline-block;
+  width: 188.14px;
+  height: 27px;
+  cursor: pointer;
+}
+.nos-formations-b,
+.nos-rfrences-b,
+.nos-tmoignages-b {
+  top: 16px;
+  left: 588.43px;
+  width: 169.12px;
+  height: 55px;
+}
+.nos-rfrences-b,
+.nos-tmoignages-b {
+  top: 17px;
+  left: 897.65px;
+  width: 188.14px;
+  height: 27px;
+}
+.nos-rfrences-b {
+  left: 1171.85px;
+}
+.logo-afpa-2018-300x300-1-icon {
+  position: relative;
+  width: 121.3px;
+  height: 63px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 17px 10px 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.barre-de-navigation,
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1376px;
+  height: 73px;
+}
+.rectangle-div1 {
+  left: 0;
+  background-color: #418fde;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 1366px;
+  height: 86px;
+}
+.devenez-dveloppeur-web {
+  position: absolute;
+  top: 25px;
+  left: 495px;
+  display: inline-block;
+  -webkit-text-stroke: 2px #fff;
+}
+.r-1-icon,
+.titre-div {
+  position: absolute;
+  left: 0;
+}
+.titre-div {
+  top: 63px;
+  width: 1366px;
+  height: 86px;
+  font-size: 32px;
+  color: #1c0202;
+}
+.r-1-icon {
+  top: 149px;
+  width: 1350px;
+  height: 631px;
+  object-fit: cover;
+}
+.une-formation-gratuite-et-rmu {
+  position: absolute;
+  top: 239px;
+  left: 331px;
+  display: inline-block;
+  text-align: center;
+  width: 664px;
+  height: 83px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.rectangle-div2 {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border-radius: 50px;
+  background-color: #418fde;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 313px;
+  height: 87px;
+  cursor: pointer;
+}
+.je-dcouvre-la-formation {
+  position: absolute;
+  top: 30px;
+  right: 34px;
+  display: inline-block;
+  width: 243px;
+  -webkit-text-stroke: 1px #000;
+}
+.buttom-div {
+  position: absolute;
+  top: 348px;
+  right: 446px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 311px;
+  height: 85px;
+  color: #d9d9d9;
+}
+.mentions-legales-div {
+  position: relative;
+  display: inline-block;
+  width: 171px;
+  height: 23px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.rectangle-textarea {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  width: 184px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.mentions-lgales-div {
+  position: absolute;
+  top: 742px;
+  left: 636px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 176px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: Inter;
+}
+.rectangle-textarea1 {
+  border: 0;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 735px;
+  left: 507px;
+  width: 10px;
+  height: 3px;
+}
+.acceuil-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 780px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial;
+}
