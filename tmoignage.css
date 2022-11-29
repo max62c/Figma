@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #78be20;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 1366px;
+  height: 82px;
+}
+.acceuil-b4,
+.contact-b4,
+.nos-formations-b4 {
+  position: relative;
+  display: inline-block;
+  width: 79px;
+  height: 44.11px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.contact-b4,
+.nos-formations-b4 {
+  width: 92px;
+  height: 44px;
+}
+.nos-formations-b4 {
+  width: 169px;
+  height: 89.86px;
+}
+.nos-rfrences-b4,
+.nos-tmoignages-b4 {
+  position: relative;
+  display: inline-block;
+  width: 188px;
+  height: 44.11px;
+  flex-shrink: 0;
+}
+.nos-rfrences-b4 {
+  cursor: pointer;
+}
+.frame-div6 {
+  position: absolute;
+  top: 26.14px;
+  left: 194px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.barre-de-navigation4 {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 1366px;
+  height: 116px;
+  font-size: 20px;
+  color: #fff;
+}
+.rectangle-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 91px;
+}
+.danciens-stagiaires-tmoignen {
+  position: absolute;
+  top: 22px;
+  left: 423px;
+  display: inline-block;
+}
+.fond-div,
+.titre-div3 {
+  position: absolute;
+  left: 0;
+  width: 1366px;
+}
+.titre-div3 {
+  top: 65px;
+  height: 91px;
+  font-size: 32px;
+  color: #fff;
+}
+.fond-div {
+  top: 157px;
+  background: linear-gradient(135deg, #084976, #f799db);
+  height: 614px;
+  opacity: 0.99;
+}
+.rectangle-div24 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 25px;
+  background-color: #008c95;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 280px;
+  height: 539px;
+}
+.alexis-garnier-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.tmoignage-a-cogolin-je-me {
+  margin: 0;
+  color: #fff;
+}
+.alexis-garnier-entreprise-wi {
+  position: absolute;
+  top: 189px;
+  left: 14px;
+  display: inline-block;
+  width: 246px;
+  height: 323px;
+}
+.alexisgarnier-1-icon,
+.rectangle-div25 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border-radius: 25px;
+  width: 92px;
+  height: 92px;
+}
+.rectangle-div25 {
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.alexisgarnier-1-icon {
+  object-fit: cover;
+}
+.alexis-div,
+.image-div {
+  position: absolute;
+  top: 55px;
+  left: 85px;
+  width: 90px;
+  height: 90px;
+}
+.alexis-div {
+  top: 187px;
+  left: 913px;
+  width: 278px;
+  height: 537px;
+  text-align: center;
+}
+.p9 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #fff;
+}
+.si-je-devais-rsumer-mon-orien {
+  margin: 0;
+}
+.sarah-chesne-entreprise-sii {
+  position: absolute;
+  top: 189px;
+  left: 11px;
+  display: inline-block;
+  width: 257px;
+  height: 329px;
+}
+.image-div1,
+.rectangle-div27 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+}
+.rectangle-div27 {
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  background-color: #d9d9d9;
+}
+.image-div1 {
+  top: 55px;
+  left: 94px;
+}
+.rectangle-div28,
+.sarah-div {
+  position: absolute;
+  top: 187px;
+  left: 544px;
+  width: 278px;
+  height: 537px;
+}
+.rectangle-div28 {
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  background-color: #008c95;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 277px;
+}
+.antoine-germanique-entreprise {
+  position: absolute;
+  top: 189px;
+  left: 15px;
+  display: inline-block;
+  width: 262px;
+  height: 233px;
+}
+.antoinegermanique-1-icon {
+  position: absolute;
+  top: 54px;
+  left: 74px;
+  border-radius: 25px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.antoine-div {
+  position: absolute;
+  top: 187px;
+  left: 176px;
+  width: 277px;
+  height: 537px;
+}
+.logo-afpa-2018-300x300-1-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121px;
+  height: 67px;
+  object-fit: cover;
+}
+.tmoignage-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 11px;
+  color: #000;
+  font-family: Arial;
+}
