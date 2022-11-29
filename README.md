@@ -1,2 +1,2 @@
 # Figma
-Projet Figma
+Projet de maquettage sur Figma
